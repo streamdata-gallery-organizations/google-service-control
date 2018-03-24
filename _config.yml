@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: google-service-control.api.streamdata.gallery
+title: Streamdata Gallery Google Service Control
+url: google-service-control.streamdata.gallery
 tag: Google Service Control
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: google-service-control
 github_branch: master
 collections:
