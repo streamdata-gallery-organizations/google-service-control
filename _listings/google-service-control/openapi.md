@@ -4,7 +4,7 @@ x-collection-name: Google Service Control
 x-complete: 1
 info:
   title: Google Service Control
-  description: google-service-control-provides-control-plane-functionality-to-managed-services-such-as-logging-monitoring-and-status-checks
+  description: google-service-control-provides-control-plane-functionality-to-managed-services-such-as-logging-monitoring-and-status-checks-
   contact:
     name: Google
     url: https://google.com
