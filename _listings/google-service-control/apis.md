@@ -10,13 +10,13 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Service Control
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Service Control API Allocate Quota
-  x-api-slug: google-service-control-api
+- name: Google Service Control - Allocate Quota
+  x-api-slug: v1servicesservicenameallocatequota-post
   description: |-
     Attempts to allocate quota for the specified consumer. It should be called
     before the operation is executed.
@@ -27,13 +27,14 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:allocateQuota
-  tags: Service Quota
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenameallocatequota-post-openapi.md
-- name: Google Service Control API Check Operation
-  x-api-slug: google-service-control-api
+- name: Google Service Control - Check Operation
+  x-api-slug: v1servicesservicenamecheck-post
   description: |-
     Checks an operation with Google Service Control to decide whether
     the given operation should proceed. It should be called before the
@@ -51,13 +52,14 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:check
-  tags: Service Operation
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenamecheck-post-openapi.md
-- name: Google Service Control API End Reconciliation
-  x-api-slug: google-service-control-api
+- name: Google Service Control - End Reconciliation
+  x-api-slug: v1servicesservicenameendreconciliation-post
   description: |-
     Signals the quota controller that service ends the ongoing usage
     reconciliation.
@@ -68,13 +70,14 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:endReconciliation
-  tags: Service Reconcilliation
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenameendreconciliation-post-openapi.md
-- name: Google Service Control API Release Quota
-  x-api-slug: google-service-control-api
+- name: Google Service Control - Release Quota
+  x-api-slug: v1servicesservicenamereleasequota-post
   description: |-
     Releases previously allocated quota done through AllocateQuota method.
 
@@ -84,13 +87,14 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:releaseQuota
-  tags: Service Quota
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenamereleasequota-post-openapi.md
-- name: Google Service Control API Report
-  x-api-slug: google-service-control-api
+- name: Google Service Control - Report
+  x-api-slug: v1servicesservicenamereport-post
   description: |-
     Reports operation results to Google Service Control, such as logs and
     metrics. It should be called after an operation is completed.
@@ -109,13 +113,14 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:report
-  tags: Report
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenamereport-post-openapi.md
-- name: Google Service Control API Start Reconciliation
-  x-api-slug: google-service-control-api
+- name: Google Service Control - Start Reconciliation
+  x-api-slug: v1servicesservicenamestartreconciliation-post
   description: |-
     Unlike rate quota, allocation quota does not get refilled periodically.
     So, it is possible that the quota usage as seen by the service differs from
@@ -145,26 +150,17 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
     Shot 2017-03-17 at 3.49.30 PM.png
   humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com////v1/services/{serviceName}:startReconciliation
-  tags: Service Reconcilliation
+  baseURL: ://servicecontrol.googleapis.com//
+  tags: Google APIs, Monitoring, Logging, Stack Network, API Service Provider, API
+    Provider, Statuses, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/v1servicesservicenamestartreconciliation-post-openapi.md
-- name: Google Service Control API
-  x-api-slug: google-service-control-api
-  description: Google Service Control is a Google Cloud Platform infrastructure service.
-    It provides control plane functionality to managed services, such as logging,
-    monitoring, and status checks. It is widely used by Google APIs and Google Cloud
-    Endpoints. This page provides an overview of what it does and how it works.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen
-    Shot 2017-03-17 at 3.49.30 PM.png
-  humanURL: https://cloud.google.com/service-control/overview
-  baseURL: ://servicecontrol.googleapis.com//
-  tags: Google Service Control
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.search.console.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.service.control.stack.network
 - type: x-change-log
   url: https://cloud.google.com/service-control/release-notes
 - type: x-code

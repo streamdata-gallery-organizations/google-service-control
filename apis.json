@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Google Service Control",
+	"description": "This is a repository of google service control APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/google-service-control.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://google-service-control.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Service Control",
+			"x-api-slug": "google-service-control",
+			"description": "Google Service Control is a Google Cloud Platform infrastructure service. It provides control plane functionality to managed services, such as logging, monitoring, and status checks. It is widely used by Google APIs and Google Cloud Endpoints. This page provides an overview of what it does and how it works.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-17 at 3.49.30 PM.png",
+			"humanURL": "https://cloud.google.com/service-control/overview",
+			"baseURL": "://servicecontrol.googleapis.com//",
+			"tags": "Google Service Control",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Google Service Control",
+	"include": [
+		{
+			"name": "Google Service Control",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-service-control/master/_listings/google-service-control/apis.yaml"
+		}
+	]
+}
